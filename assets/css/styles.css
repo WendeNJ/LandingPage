@@ -189,6 +189,10 @@ footer {
         width: 100%;
         text-align: center;
     }
+    .buttonTem{ 
+        width: auto;
+        text-align:auto ;
+    }
 }
 
 @keyframes fadeIn {
