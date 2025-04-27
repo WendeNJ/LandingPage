@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chat Oficial da FURIA - Acompanhe o time FURIA de perto">
     <title>FURIA-CHATBOT</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    
+
 </head>
+
 <body>
     <main class="main-content">
         <div class="container">
@@ -34,8 +36,8 @@
         Projeto de Estágio - FURIA 2025
     </footer>
 
-    <script >
-        document.addEventListener('DOMContentLoaded', function() {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
             const featuresContainer = document.getElementById('botFeatures');
 
             const botFeatures = [
@@ -43,77 +45,73 @@
 
                     title: "Elenco Atual",
                     description: "Conheça os jogadores da FURIA",
-                    emoji: "🧑‍🤝‍🧑",
-                    command:"/1"
+                    emoji: "🧑‍🤝‍🧑"
+                    
                 },
                 {
 
                     title: "Próximos Campeonatos",
                     description: "Calendário de competições",
-                    emoji: "📅",
-                    command:"/2"
-            
+                    emoji: "📅"
+                    
+
                 },
                 {
 
                     title: "Últimos Resultados",
                     description: "Performance do time",
-                    emoji: "🏆",
-                    command:"/3"
+                    emoji: "🏆"
+                    
                 },
                 {
 
                     title: "História da FURIA",
                     description: "Trajetória do time",
-                    emoji: "📖",
-                    command:"/4"
+                    emoji: "📖"
+                
                 },
                 {
 
                     title: "Produtos Oficiais",
                     description: "Compre nossos produtos",
-                    emoji: "🛍️",
-                    command:"/5"
+                    emoji: "🛍️"
+                  
                 },
                 {
 
                     title: "Redes Sociais",
                     description: "Siga a FURIA online",
-                    emoji: "🌐",
-                    command:"/6"
-                
+                    emoji: "🌐"
+               
+
                 },
                 {
 
                     title: "Wallpaper FURIA",
                     description: "Baixe wallpapers exclusivos",
-                    emoji: "🐆",
-                    command:"/7"
+                    emoji: "🐆"
+                   
                 },
                 {
                     title: "Jogos ao Vivo",
                     description: "Acompanhe os jogos da Furia em Tempo Real",
-                    emoji: "📺",
-                    command:"/8"
+                    emoji: "📺"
+                    
                 }
             ];
 
 
-            botFeatures.forEach(feature => {
-                const featureCard = document.createElement('div');
-                featureCard.className = 'feature-card';
-                featureCard.innerHTML = `
-                    <div class="feature-icon">${feature.emoji}</div>
-                    <div class="feature-title">${feature.title}</div>
-                    <div class="feature-desc">${feature.description}</div>
-                    <div </div>
-                        <a class="buttonTem" href="https://t.me/FuriaFaBot?start=${feature.command}" target="_blank" rel="noopener noreferrer">
-        Acessar
-    </a>
-                `;
-                featuresContainer.appendChild(featureCard);
-            });
-
+           botFeatures.forEach(feature => {
+    const featureCard = document.createElement('div');
+    featureCard.className = 'feature-card';
+    featureCard.innerHTML = `
+        <div class="feature-icon">${feature.emoji}</div>
+        <div class="feature-title">${feature.title}</div>
+        <div class="feature-desc">${feature.description}</div>
+        
+    `;
+    featuresContainer.appendChild(featureCard);
+});
 
             const featureCards = document.querySelectorAll('.feature-card');
             featureCards.forEach((card, index) => {
@@ -123,4 +121,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -73,24 +73,9 @@ p {
     line-height: 1.6;
     color: var(--text-secondary);
 }
-.buttonTem {
-    display: inline-block;
-    background-color: transparent;
-    color: var(--secondary-color);
-    padding: 4px 8px;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    margin-top: 0.5rem;
-}
 
-.buttonTem:hover {
-    background-color: var(--secondary-color);
-    color: #000;
-}
+
+
 .button {
     display: inline-block;
     background-color: var(--secondary-color);
@@ -189,10 +174,10 @@ footer {
         width: 100%;
         text-align: center;
     }
-    .buttonTem{ 
+     .button{
         width: auto;
-        text-align:auto ;
-    }
+        text-align: center;
+     }
 }
 
 @keyframes fadeIn {
