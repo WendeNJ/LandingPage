@@ -34,7 +34,7 @@
         Projeto de Estágio - FURIA 2025
     </footer>
 
-    <script>
+    <script >
         document.addEventListener('DOMContentLoaded', function() {
             const featuresContainer = document.getElementById('botFeatures');
 
@@ -43,7 +43,8 @@
 
                     title: "Elenco Atual",
                     description: "Conheça os jogadores da FURIA",
-                    emoji: "🧑‍🤝‍🧑"
+                    emoji: "🧑‍🤝‍🧑",
+                    command:"/1"
                 },
                 {
 
@@ -97,6 +98,9 @@
                     <div class="feature-title">${feature.title}</div>
                     <div class="feature-desc">${feature.description}</div>
                     <div </div>
+                        <a class="buttonTem" href="https://t.me/FuriaFaBot?start=${feature.command}" target="_blank" rel="noopener noreferrer">
+        Acessar
+    </a>
                 `;
                 featuresContainer.appendChild(featureCard);
             });
