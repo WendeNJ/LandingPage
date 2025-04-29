@@ -1,35 +1,60 @@
-📝 Visão Geral
+# 💻 Chat FURIA - Interface Estilizada com CSS
 
-Página de destino para o chatbot oficial da FURIA no Telegram, desenvolvido como parte do programa de estágio 2025. A página apresenta as funcionalidades do bot e direciona os usuários para iniciar a conversa.
+Este projeto é uma **interface front-end** desenvolvida em HTML e CSS, com foco em um design moderno e responsivo, inspirado no tema escuro da organização FURIA. Ele pode ser utilizado como base para um chatbot oficial ou como página de boas-vindas interativa.
 
-✨ Funcionalidades
+---
+
+## 🎨 Estilo e Layout
+
+A interface conta com:
+
+- 🎯 **Design escuro e gamer-friendly**, usando gradientes e sobreposição de imagem de fundo.
+- 🧱 **Grid responsivo**, adaptando-se perfeitamente a diferentes tamanhos de tela.
+- ✨ **Animações suaves**, como `fadeIn`, para elementos que aparecem gradualmente.
+- 🔘 **Botões interativos** com transições de cor e sombra ao passar o mouse.
+- 🧩 **Cards de funcionalidades** que destacam recursos do chatbot ou seções da página.
+
+---
+
+## 🧾 Tecnologias Utilizadas
+
+- HTML5
+- CSS3 com variáveis (`:root`) e `clamp()` para responsividade.
+- Grid Layout e Flexbox para estruturação.
+- Responsividade com media queries.
+
+---
 
 
-🤖 Recursos do Chatbot
+---
 
-🧑‍🤝‍🧑 Elenco Atual - Conheça os jogadores da FURIA
+## 📱 Responsividade
 
-📅 Próximos Campeonatos - Calendário de competições
+A interface adapta-se automaticamente para:
 
-🏆 Últimos Resultados - Desempenho do time
+- **Desktops e notebooks**
+- **Tablets** (ex: layout 2 colunas)
+- **Smartphones** (ex: layout 1 coluna + botão em tela cheia)
 
-📖 História da FURIA - Trajetória do time
+---
 
-🛍️ Produtos Oficiais - Compre itens da FURIA
+## 🖼️ Imagem de Fundo
 
-🌐 Redes Sociais - Siga a FURIA online
+A imagem de fundo é carregada de forma fixa, com **opacidade ajustada** para não interferir na legibilidade dos textos:
 
-🐆 Wallpapers Exclusivos - Baixe agora
+```css
+body::before {
+    background-image: url("https://pbs.twimg.com/media/F98rmOiWYAAFMyD?format=jpg&name=large");
+    background-attachment: fixed;
+    opacity: 0.2;
+}
 
-📺 Jogos ao Vivo - Acompanhe em tempo real
 
-🤖 Interação com IA - Respostas dinâmicas
+🚀 Como Usar
+Clone o repositório:
 
-🎨 Recursos da Página
-✅ Design responsivo
+git clone https://github.com/seu-usuario/LandingPage.git
+Abra o arquivo index.html em qualquer navegador moderno.
 
-✨ Animações suaves
+Modifique os textos, funcionalidades ou imagem conforme sua necessidade.
 
-🎯 Chamada para ação clara
-
-📱 Compatível com mobile
