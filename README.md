@@ -1,8 +1,12 @@
 📝 Visão Geral
+
 Página de destino para o chatbot oficial da FURIA no Telegram, desenvolvido como parte do programa de estágio 2025. A página apresenta as funcionalidades do bot e direciona os usuários para iniciar a conversa.
 
 ✨ Funcionalidades
+
+
 🤖 Recursos do Chatbot
+
 🧑‍🤝‍🧑 Elenco Atual - Conheça os jogadores da FURIA
 
 📅 Próximos Campeonatos - Calendário de competições
