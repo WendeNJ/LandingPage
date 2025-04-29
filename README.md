@@ -58,3 +58,4 @@ Abra o arquivo index.html em qualquer navegador moderno.
 
 Modifique os textos, funcionalidades ou imagem conforme sua necessidade.
 
+Observação: Para que a integração com o Telegram funcione corretamente, o código do Telegram precisa estar ativo localmente. Certifique-se de rodar a aplicação para visualizar a interação completa.
